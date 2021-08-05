@@ -1,3 +1,3 @@
 # RPSLS_C-Sharp
 
-Using the concepts of OOP by creating classes and using objects (instances of those classes) to interact with each other, create a console version of the classic game Rock Paper Scissors Lizard Spock. 
+Using the concepts of OOP creating classes and using objects to interact with each other, in a console application of the classic game Rock Paper Scissors Lizard Spock. 
