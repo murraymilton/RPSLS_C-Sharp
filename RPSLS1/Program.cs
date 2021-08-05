@@ -11,13 +11,6 @@ namespace RPSLS1
         static void Main(string[] args)
         {
 
-            string myName = "Milton";
-            Console.WriteLine( myName);
-
-
-
-
-            Console.ReadLine();
         }
     }
 }

@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace RPSLS1
 {
-    class Human
+    public class Human
     {
+        public void PlayerName()
+        {
+            Console.WriteLine("Enter your name:");
+            namePlayer = Console.ReadLine();
+        }
+
+        public override Gesture PickGesture()
+        {
+            Gesture selected = new Gesture([]);
+            Gesture gesture = selected;
+            while (gesture == selected)
+            {
+                Console.WriteLine("{0}, select your gesture.", namePlayer);
+            }
+        }
     }
 }
